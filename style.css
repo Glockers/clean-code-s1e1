@@ -104,6 +104,10 @@ input[type="text"]:focus {
   margin: 0 0 20px;
 }
 
+.task-add-section{
+  margin: 1em 0;
+}
+
 #new-task {
   width: 318px;
 }
