@@ -84,7 +84,7 @@ button {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -97,7 +97,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.task:focus {
   color: #333;
 }
 
@@ -144,18 +144,18 @@ li>* {
   width: 226px;
 }
 
-.list-item__btn-delete img {
+.list-item__btn-delete .list-item__img {
   height: 2em;
   transform: rotate(45deg);
   transition: transform 200ms ease-in;
 }
 
-.list-item__btn-delete img:hover {
+.list-item__btn-delete .list-item__img:hover {
   transform: rotate(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks .list-item__title {
   text-decoration: line-through;
   color: #888;
 }
@@ -165,11 +165,11 @@ ul#completed-tasks label {
   display: none;
 }
 
-.list-item_edit-mode input[type=text] {
+.list-item_edit-mode .task {
   display: inline-block;
   width: 224px;
 }
 
-.list-item_edit-mode label {
+.list-item_edit-mode .list-item__title {
   display: none;
 }
