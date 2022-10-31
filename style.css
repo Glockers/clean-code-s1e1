@@ -59,7 +59,7 @@ button {
   outline: none;
 }
 
-.button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -69,7 +69,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   color: #3a3A3a;
 }
 
@@ -144,13 +144,13 @@ li>* {
   width: 226px;
 }
 
-.list-item__button-delete img {
+.list-item__btn-delete img {
   height: 2em;
   transform: rotate(45deg);
   transition: transform 200ms ease-in;
 }
 
-.list-item__button-delete img:hover {
+.list-item__btn-delete img:hover {
   transform: rotate(0);
 }
 
